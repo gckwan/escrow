@@ -7,13 +7,9 @@ publish = false
 
 [dependencies]
 solana-program = "1.6.2"
-
-[features]
-test-bpf = []
+thiserror = "1.0.21"
 
 [dev-dependencies]
-assert_matches = "1.4.0"
-solana-program-test = "1.6.2"
 solana-sdk = "1.6.2"
 solana-validator = "1.6.2"
 
