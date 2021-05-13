@@ -7,6 +7,9 @@ pub enum EscrowError {
   /// Invalid instruction
   #[error("Invalid Instruction")]
   InvalidInstruction,
+
+  #[error("Not Rent Exempt")]
+  NotRentExempt,
 }
 
 /// Implement the From trait for ProgramError so it can convert from EscrowError.
